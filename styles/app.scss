@@ -1,0 +1,26 @@
+
+
+@import "library/index";
+@import "base/index";
+@import "variables";
+@import "components/index";
+@import "global";
+
+html, body {
+  // body 背景
+  background: #fff;
+  font-size: 14px;
+}
+* {
+  // 字体显示优化
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $base-font-family;
+}
+
+.option-default { color: nth($darks, 3) }
+// label fix
+label, .label {
+  font-weight: normal!important;
+  margin: 0!important;
+}

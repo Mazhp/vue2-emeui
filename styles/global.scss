@@ -1,0 +1,21 @@
+/**
+ * @description 全局样式.
+ */
+
+.spacing-0-7 {
+  border-spacing: 0 7px!important;
+}
+.spacing-20-0 {
+  border-spacing: 20px 0!important;
+}
+
+//table-tools
+.table-striped .tools .item {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3px;
+  color: #444;
+  cursor: pointer;
+  zoom: 1;
+}
+

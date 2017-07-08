@@ -1,0 +1,13 @@
+/**
+ * @description menu block style file.
+ */
+
+@import "../../index";
+.contanter{
+  display: block;
+  position: absolute;
+  width: 100%;
+  left:0;
+  bottom: 0;
+  top:$global-header-height;
+}

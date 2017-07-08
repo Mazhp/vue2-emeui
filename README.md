@@ -1,2 +1,18 @@
-# vue2-emeui
-使用elementui和vue2搭的一个后台项目的框架
+# vue2+elementui
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
